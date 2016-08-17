@@ -23,7 +23,7 @@ $(document).ready(function(){
         // var host = propertyDetails.mm_host
         // var contest = "merivale-survey";
         var host = "http://twinpines.lvh.me:3000"
-        var contest = "test-contest"
+        var contest = "twinpines-test-contest"
         
         $.ajax({
             url: [host, "contests", contest, "json_entry"].join("/"),
