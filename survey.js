@@ -22,7 +22,7 @@ $(document).ready(function(){
     
         // var host = propertyDetails.mm_host
         // var contest = "merivale-survey";
-        var host = "https://merivale.mallmaverickstaging"
+        var host = "https://merivale.mallmaverickstaging.com"
         var contest = "merivale-survey-2016"
         
         $.ajax({
