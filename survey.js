@@ -22,8 +22,8 @@ $(document).ready(function(){
     
         // var host = propertyDetails.mm_host
         // var contest = "merivale-survey";
-        var host = "http://twinpines.lvh.me:3000"
-        var contest = "twinpines-test-contest"
+        var host = "https://merivale.mallmaverickstaging"
+        var contest = "merivale-survey-2016"
         
         $.ajax({
             url: [host, "contests", contest, "json_entry"].join("/"),
